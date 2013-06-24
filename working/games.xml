@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<games>
+	<game>
+		<index>1</index>
+		<top5>yes</top5>
+		<image_thumb>images/test.jpg</image_thumb>
+		<image_full>images/test.jpg</image_full>
+		<name>Test 1</name>
+		<release> 1/1/11</release>
+		<developer>Test Dev</developer>
+		<dev_link>http://www.google.com/</dev_link>
+		<description>My favorite game!</description>
+	</game>
+	<game>
+		<index>2</index>
+		<top5>yes</top5>
+		<image_thumb>images/test.jpg</image_thumb>
+		<image_full>images/test.jpg</image_full>
+		<name>Test 2</name>
+		<release> 1/1/11</release>
+		<developer>Test Dev</developer>
+		<dev_link>http://www.google.com/</dev_link>
+		<description>My favorite game!</description>
+	</game>
+	<game>
+		<index>3</index>
+		<top5>yes</top5>
+		<image_thumb>images/test.jpg</image_thumb>
+		<image_full>images/test.jpg</image_full>
+		<name>Test 3</name>
+		<release> 1/1/11</release>
+		<developer>Test Dev</developer>
+		<dev_link>http://www.google.com/</dev_link>
+		<description>My favorite game!</description>
+	</game>
+	<game>
+		<index>4</index>
+		<top5>yes</top5>
+		<image_thumb>images/test.jpg</image_thumb>
+		<image_full>images/test.jpg</image_full>
+		<name>Test 4</name>
+		<release> 1/1/11</release>
+		<developer>Test Dev</developer>
+		<dev_link>http://www.google.com/</dev_link>
+		<description>My favorite game!</description>
+	</game>
+	<game>
+		<index>5</index>
+		<top5>yes</top5>
+		<image_thumb>images/test.jpg</image_thumb>
+		<image_full>images/test.jpg</image_full>
+		<name>Test 5</name>
+		<release> 1/1/11</release>
+		<developer>Test Dev</developer>
+		<dev_link>http://www.google.com/</dev_link>
+		<description>My favorite game!</description>
+	</game>
+</games>

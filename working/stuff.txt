@@ -1,0 +1,53 @@
+Index Header
+--------------------------------------------------------
+
+	<div id="header">
+    	<div class="title_text">.gg/ the_game_gallery_{}</div>
+        <div class="topnav"></div>
+    </div>
+
+
+
+Chron Header
+--------------------------------------------------------
+
+ <div id="header">
+            <div class="title_text">
+            	.gg/ the_game_gallery_{}
+            </div>
+            <div class="topnav">
+            	<a href="../alpha/catacomb_abyss.html">alpha</a>&nbsp;|&nbsp;<a href="19800901.html">chron</a>
+            </div>
+	    </div>
+		<hr />
+		</div>
+
+
+
+Alpha Header
+--------------------------------------------------------
+
+ <div id="header">
+            <div class="title_text">
+            	.gg/ the_game_gallery_{}
+            </div>
+            <div class="topnav">
+            	<a href="catacomb_abyss.html">alpha</a>&nbsp;|&nbsp;<a href="../chron/19800901.html">chron</a>
+            </div>
+	    </div>
+		<hr />
+		</div>
+
+
+
+
+
+
+Footer
+--------------------------------------------------------
+
+
+        <div id="footer">
+            <hr /> 
+            <div class="link_text"><a href="../home.html">home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="../about.html">about</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="../contact.html">contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="../sitemap.html">site map</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="../jobs.html">jobs</a></div>
+        </div>

@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* Tags */
+
+body{
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+}
+
+ul{
+	text-align:left;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+
+hr{
+	background-color:#000000;
+	color:#000;
+	height: 2px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+
+h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 10px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin: 0px;
+}
+
+h2 {
+	text-indent: 25px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+h3 {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+
+/* Containers */
+
+#container{
+	width: 90%;
+	border: 1px solid white;
+	height: 392px;
+	display: inline-block;
+}
+
+#header{
+	width: 100%;
+	border: 1px solid white;
+	height: 4.33%;
+}
+
+#footer{ 
+	width: 100%; 
+	border: 1px solid white; 
+	height: 19.14%; 
+	text-align:center; 
+	clear:both;
+}
+
+#center{ 
+	width: 100%; 
+	border: 1px solid white; 
+	height: 76.53%; 
+	float:none;
+	display: inline-table;
+	#position:relative;
+	overflow:hidden;
+}
+
+#info{
+	width: 38.88%;
+	border: 1px solid white;
+	float:left;
+	height: 76.53%;
+	font-family: "Lucida Console", Monaco, monospace;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	#position:absolute;
+	#top: 50%;
+	display: table-cell; 
+	vertical-align: middle;
+	text-align:left;
+}
+
+#image{
+	width: 33.33%;
+	border: 1px solid white;
+	float: left;
+	height: 300px;
+}
+
+#left{
+	width: 11.11%;
+	float:left;
+	height: 76.53%;
+	display:inline;
+}
+
+#right{
+	width: 11.11%;
+	float: right;
+	height: 76.53%;
+	display:inline;
+}
+
+/* Styles for Elements */
+
+.title_text {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	width: 50%;
+	text-align:left;
+}
+
+.link_text {
+	font-size: 12px;
+	font-weight:bold;
+	padding: 0px;
+	margin-top: 10px;
+
+}.topnav {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+	font-size: 14px;
+	float: right;
+	width: 50%;
+	text-align: right;
+}

@@ -5,43 +5,32 @@
 <link rel="stylesheet" href="css/styles.css" />
 <script type="text/javascript" src="Scripts/parts.js"></script>
 <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+var gameIndex=0;
+var name;
+var released;
+var developer;
+var description;
+var xmlDoc=loadXMLDoc("alpha.xml");
 
-<script>
-function loadXMLDoc(XMLname){
-	var xmlDoc;
-	if (window.XMLHttpRequest){
-		xmlDoc=new window.XMLHttpRequest();
-		xmlDoc.open("GET",XMLname,false);
-		xmlDoc.send("");
-		return xmlDoc.responseXML;
-	} else if (ActiveXObject("Microsoft.XMLDOM")){
-		xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-		xmlDoc.async=false;
-		xmlDoc.load(XMLname);
-		return xmlDoc;
-	}
-		alert("Error loading document!");
-		return null;
-}
-
-function getData()
+function getData(gameIndex)
 {
-	var xmlDoc=loadXMLDoc("test.xml");
-	var name=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
-	document.getElementById("name").innerHTML=name;
-	var released=xmlDoc.getElementsByTagName("released")[0].childNodes[0].nodeValue;
-	document.getElementById("released").innerHTML=released;
-	var developer=xmlDoc.getElementsByTagName("developer")[0].childNodes[0].nodeValue;
-	document.getElementById("developer").innerHTML=developer;
-	var description=xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-	document.getElementById("description").innerHTML=description;
+	name=xmlDoc.getElementsByTagName("name")[gameIndex].childNodes[0].nodeValue;
+	released=xmlDoc.getElementsByTagName("released")[gameIndex].childNodes[0].nodeValue;
+	developer=xmlDoc.getElementsByTagName("developer")[gameIndex].childNodes[0].nodeValue;
+	description=xmlDoc.getElementsByTagName("description")[gameIndex].childNodes[0].nodeValue;
 }
+document.write(gameIndex);
+document.write(name);
+document.write(released);
+document.write(developer);
+document.write(description);
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>.gg/ game_gallery/</title>
 
 </head>
-<body onload="f1();MM_preloadImages('images/left_arrow_hover.jpg','images/right_arrow_hover.jpg');getData();">
+<body onload="getData(gameIndex);MM_preloadImages('images/left_arrow_hover.jpg','images/right_arrow_hover.jpg');">
 <div id="container">
 
 	<!-- header -->
@@ -64,13 +53,13 @@ function getData()
                     <div style=" #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;">
                         <div style="#position: relative; #top: -50%; ">
                         <h1>Name:</h1>
-                        <h2><span id="name"></span></h2>
+                        <h2><script>document.write(name);</script></h2>
                         <h1>Released:</h1> 
-                        <h2><span id="released"></span></h2>
+                        <h2><script>document.write(released);</script></h2>
                         <h1>Developer:</h1>
-                        <h2><span id="developer"></span></h2>
+                        <h2><script>document.write(developer);</script></h2>
                         <h1>Description:</h1> 
-                        <h2><span id="description"></span></h2>
+                        <h2><script>document.write(description);</script></h2>
                         </div>
                     </div>
                 </div>
@@ -85,8 +74,8 @@ function getData()
 		</div>
 
 	<!-- footer -->
-    <script>footer_html();getData();</script>
-</div>
+    <script>footer_html();</script>
 
+</div>
 </body>
 </html>

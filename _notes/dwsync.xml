@@ -8,7 +8,10 @@
 <file name="index.html" server="home.comcast.net" local="130124629939262323" remote="130124800200000000" Dst="2" />
 <file name="alpha.html" server="home.comcast.net" local="130125177151970541" remote="130125320400000000" Dst="2" />
 <file name="chron.html" server="home.comcast.net" local="130124652782657261" remote="130124800200000000" Dst="2" />
-<file name="test.html" server="home.comcast.net" local="130125107985488662" remote="130125252000000000" Dst="2" />
-<file name="test.xml" server="home.comcast.net" local="130125078371442003" remote="130125229200000000" Dst="2" />
+<file name="test.html" server="home.comcast.net" local="130165935442942981" remote="130166079600000000" Dst="2" />
+<file name="test.xml" server="home.comcast.net" local="130165933244148428" remote="130166079600000000" Dst="2" />
 <file name="alpha.xml" server="home.comcast.net" local="130125106300900368" remote="130125245400000000" Dst="2" />
+<file name="test.html" server="home.comcast.net//gg/" local="130165964081427042" remote="130166106000000000" Dst="2" />
+<file name="test.xml" server="home.comcast.net//gg/" local="130165933244148428" remote="130125229200000000" Dst="2" />
+<file name="alpha.html" server="home.comcast.net//gg/" local="130165965201346829" remote="130166088600000000" Dst="2" />
 </dwsync>

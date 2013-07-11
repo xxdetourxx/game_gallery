@@ -3,54 +3,23 @@
 
 <head>
 <link rel="stylesheet" href="css/styles.css" />
-<script type="text/javascript" src="Scripts/parts.js"></script>
-<script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/parts.js"></script>
 
-<script>
-function loadXMLDoc(XMLname){
-	var xmlDoc;
-	if (window.XMLHttpRequest){
-		xmlDoc=new window.XMLHttpRequest();
-		xmlDoc.open("GET",XMLname,false);
-		xmlDoc.send("");
-		return xmlDoc.responseXML;
-	} else if (ActiveXObject("Microsoft.XMLDOM")){
-		xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-		xmlDoc.async=false;
-		xmlDoc.load(XMLname);
-		return xmlDoc;
-	}
-		alert("Error loading document!");
-		return null;
-}
 
-function getData()
-{
-	var xmlDoc=loadXMLDoc("test.xml");
-	var name=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
-	document.getElementById("name").innerHTML=name;
-	var released=xmlDoc.getElementsByTagName("released")[0].childNodes[0].nodeValue;
-	document.getElementById("released").innerHTML=released;
-	var developer=xmlDoc.getElementsByTagName("developer")[0].childNodes[0].nodeValue;
-	document.getElementById("developer").innerHTML=developer;
-	var description=xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-	document.getElementById("description").innerHTML=description;
-}
-</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>.gg/ game_gallery/</title>
 
 </head>
-<body onload="f1();MM_preloadImages('images/left_arrow_hover.jpg','images/right_arrow_hover.jpg');getData();">
+<body   >
 <div id="container">
 
-	<!-- header -->
-    <script>alpha_header_html();</script>
+	<div id='header'><div class='title_text'>.gg/ the_game_gallery_{<script>document.write(name);</script>}</div><div class='topnav'><a href='alpha.html'><span style='color: red;'>alpha</span></a>&nbsp;|&nbsp;<a href='chron.html'>chron</a></div></div><hr />
 
 		<div id="center">    
 	        
             <div id="left">
-            	<a href="" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Previous','','images/left_arrow_hover2.jpg',1);" onclick="gameIndex=gameIndex-1">
+            	<a onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Previous','','images/left_arrow_hover2.jpg',1);" onclick="document.gg.left();">
                 	<img src="images/left_arrow_normal2.jpg" alt="Previous" name="Previous" id="Previous" />
                 </a>
             </div>
@@ -77,15 +46,14 @@ function getData()
             </div>
 				
             <div id="right">
-            	<a href="" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Next','','images/right_arrow_hover2.jpg',1);" onclick="gameIndex=gameIndex+1">
+            	<a onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Next','','images/right_arrow_hover2.jpg',1);" onclick="document.gg.right();">
                 	<img src="images/right_arrow_normal2.jpg" alt="Next" name="Next" id="Next" />
                 </a>
             </div>
             
 		</div>
 
-	<!-- footer -->
-    <script>footer_html();getData();</script>
+    <div id='footer'><hr /><div class='link_text'><a href='home.html'>home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='about.html'>about</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='contact.html'>contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='sitemap.html'>site map</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='jobs.html'>jobs</a></div></div>
 </div>
 
 </body>

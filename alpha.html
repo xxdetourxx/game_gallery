@@ -3,43 +3,23 @@
 
 <head>
 <link rel="stylesheet" href="css/styles.css" />
-<script type="text/javascript" src="Scripts/parts.js"></script>
-<script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
-<script type="text/javascript">
-var gameIndex=0;
-var name;
-var released;
-var developer;
-var description;
-var xmlDoc=loadXMLDoc("alpha.xml");
+    <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/parts.js"></script>
 
-function getData(gameIndex)
-{
-	name=xmlDoc.getElementsByTagName("name")[gameIndex].childNodes[0].nodeValue;
-	released=xmlDoc.getElementsByTagName("released")[gameIndex].childNodes[0].nodeValue;
-	developer=xmlDoc.getElementsByTagName("developer")[gameIndex].childNodes[0].nodeValue;
-	description=xmlDoc.getElementsByTagName("description")[gameIndex].childNodes[0].nodeValue;
-}
-document.write(gameIndex);
-document.write(name);
-document.write(released);
-document.write(developer);
-document.write(description);
-</script>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>.gg/ game_gallery/</title>
 
 </head>
-<body onload="getData(gameIndex);MM_preloadImages('images/left_arrow_hover.jpg','images/right_arrow_hover.jpg');">
+<body   >
 <div id="container">
 
-	<!-- header -->
-    <script>alpha_header_html();</script>
+	<div id='header'><div class='title_text'>.gg/ the_game_gallery_{<script>document.write(name);</script>}</div><div class='topnav'><a href='alpha.html'><span style='color: red;'>alpha</span></a>&nbsp;|&nbsp;<a href='chron.html'>chron</a></div></div><hr />
 
 		<div id="center">    
 	        
             <div id="left">
-            	<a href="" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Previous','','images/left_arrow_hover2.jpg',1);" onclick="gameIndex=gameIndex-1">
+            	<a onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Previous','','images/left_arrow_hover2.jpg',1);" onclick="document.gg.left();">
                 	<img src="images/left_arrow_normal2.jpg" alt="Previous" name="Previous" id="Previous" />
                 </a>
             </div>
@@ -53,29 +33,28 @@ document.write(description);
                     <div style=" #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;">
                         <div style="#position: relative; #top: -50%; ">
                         <h1>Name:</h1>
-                        <h2><script>document.write(name);</script></h2>
+                        <h2><span id="name"></span></h2>
                         <h1>Released:</h1> 
-                        <h2><script>document.write(released);</script></h2>
+                        <h2><span id="released"></span></h2>
                         <h1>Developer:</h1>
-                        <h2><script>document.write(developer);</script></h2>
+                        <h2><span id="developer"></span></h2>
                         <h1>Description:</h1> 
-                        <h2><script>document.write(description);</script></h2>
+                        <h2><span id="description"></span></h2>
                         </div>
                     </div>
                 </div>
             </div>
 				
             <div id="right">
-            	<a href="" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Next','','images/right_arrow_hover2.jpg',1);" onclick="gameIndex=gameIndex+1">
+            	<a onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Next','','images/right_arrow_hover2.jpg',1);" onclick="document.gg.right();">
                 	<img src="images/right_arrow_normal2.jpg" alt="Next" name="Next" id="Next" />
                 </a>
             </div>
             
 		</div>
 
-	<!-- footer -->
-    <script>footer_html();</script>
-
+    <div id='footer'><hr /><div class='link_text'><a href='home.html'>home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='about.html'>about</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='contact.html'>contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='sitemap.html'>site map</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='jobs.html'>jobs</a></div></div>
 </div>
+
 </body>
 </html>

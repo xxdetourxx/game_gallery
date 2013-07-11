@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="css/styles.css" />
+<script type="text/javascript" src="Scripts/parts.js"></script>
 <script>
-
 function loadXMLDoc(XMLname){
 	var xmlDoc;
 	if (window.XMLHttpRequest){
@@ -20,21 +21,48 @@ function loadXMLDoc(XMLname){
 		return null;
 }
 
-function f1()
+function getData()
 {
-	var xmlDoc=loadXMLDoc("alpha.xml");
+	var xmlDoc=loadXMLDoc("test.xml");
 	var name=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
-	document.write(name);
+	document.getElementById("name").innerHTML=name;
 	var released=xmlDoc.getElementsByTagName("released")[0].childNodes[0].nodeValue;
-	document.write(released);
+	document.getElementById("released").innerHTML=released;
 	var developer=xmlDoc.getElementsByTagName("developer")[0].childNodes[0].nodeValue;
-	document.write(developer);
+	document.getElementById("developer").innerHTML=developer;
 	var description=xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-	document.write(description);
+	document.getElementById("description").innerHTML=description;
 }
 </script>
-
 </head>
-<body onLoad="f1();">
+<body onLoad="getData();">
+	<div id="container">
+        <!-- header -->
+        <script>alpha_header_html();</script>
+		
+        <!-- left nav arrow -->
+    	<div id="left"></div>
+
+        <!-- game box art -->
+    	<div id="image"></div>
+
+        <!-- game info -->
+        <div id="info">
+            <h1>Name:</h1>
+            <h2><span id="name"></span></h2>
+            <h1>Released:</h1>            
+            <h2><span id="released"></span></h2>
+            <h1>Developer:</h1>            
+            <h2><span id="developer"></span></h2>
+            <h1>Description:</h1>            
+            <h2><span id="description"></span></h2>
+    	</div>
+
+        <!-- right nav arrow -->
+        <div id="right"></div>
+        
+        <!-- footer -->
+        <script>footer_html();</script>
+	</div>
 </body>
 </html>

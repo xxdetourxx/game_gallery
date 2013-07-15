@@ -1,186 +1,210 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <catalog>
 	<game>
+		<image>catacomb_abyss.jpg</image>
 		<name>Catacomb Abyss 3D</name>
 		<released>1991</released>
 		<developer>Id Software</developer>
 		<description>This was one of the very first FPS games, pre-dating even Wolfenstein 3D. These days people would laugh at the graphics, but back then it was creepy.</description>
 	</game>
 	<game>
+		<image>cosmos_cosmic_adventure.jpg</image>
 		<name>Cosmo's Cosmic Adventure</name>
 		<released>March 1992</released>
 		<developer>3D Realms (formerly Apogee)</developer>
 		<description>A fun game, still good for young kids if you can get then to sit still long enough. Cosmo was a funny alien with suction cup hands that climbed walls.</description>
 	</game>
 	<game>
+		<image>dark_forces.jpg</image>
 		<name>Star Wars: Dark Forces</name>
 		<released>February 15, 1995</released>
 		<developer>LucasArts</developer>
 		<description>One of the first good Star Wars games, the series slowly suffered after this until the release of Dark Forces 2, Tie Fighter, and eventually Force Unleashed.</description>
 	</game>
 	<game>
+		<image>df2_jediknight.jpg</image>
 		<name>Dark Forces 2 - Jedi Knight</name>
 		<released>October 9, 1997</released>
 		<developer>LucasArts</developer>
 		<description>DF2 was in the first generation of actual 3D games, around the Quake era, this game implemented lightsaber combat for the first time in a video game.</description>
 	</game>
 	<game>
+		<image>diablo.jpg</image>
 		<name>Diablo</name>
 		<released>December 31, 1996</released>
 		<developer>Blizzard Entertainment</developer>
 		<description>Diablo was a top down 3rd person RPG, one of the most in depth and graphically intense games of it's time. Randomly generated dungeones, and extremely customizable items/characters were two of the best parts of this game.</description>
 	</game>
 	<game>
+		<image>doom.jpg</image>
 		<name>Doom</name>
 		<released>December 10, 1993</released>
 		<developer>Id Software</developer>
 		<description>Doom defined the FPS genre, there isnt much else to say about the game. A must play classic.</description>
 	</game>
 	<game>
+		<image>doom2.jpg</image>
 		<name>Doom 2</name>
 		<released>October 10, 1994</released>
 		<developer>Id Software</developer>
 		<description>Doom 2 played off the same successful formula as it's predecessor and was just as big of a hit. Another must play classic for any gamer.</description>
 	</game>
 	<game>
+		<image>duck_hunt.jpg</image>
 		<name>Duck Hunt</name>
 		<released>October 18, 1985</released>
 		<developer>Nintendo</developer>
 		<description>Another classic from the 80s, everyone loved this game attached to their Super Mario Bros. cartridge. The Nintendo gun made this game fun for anyone not requiring a ton of skill or learning to play.</description>
 	</game>
 	<game>
+		<image>duke_nukem.jpg</image>
 		<name>Duke Nukem</name>
 		<released>1991</released>
 		<developer>3D Realms (formerly Apogee)</developer>
 		<description>This game was one of the earlier Up/Down/Side scrollers in PC history, the main character went on to be included in a whole series of games over the next 25 years.</description>
 	</game>
 	<game>
+		<image>duke_nukem_3d.jpg</image>
 		<name>Duke Nukem 3D</name>
 		<released>1996</released>
 		<developer>3D Realms (formerly Apogee)</developer>
 		<description>Almost 10 years after the first Duke Nukem game, and a few side scrolling sequels, Duke Nukem 3D a FPS version of the Duke Nukem franchise was unleashed upon the world. It's time to kick ass and chew bubble gum, and I'm all outta gum...</description>
 	</game>
 	<game>
-		<name>Duke Nukem 3D</name>
-		<released>1996</released>
-		<developer>3D Realms (formerly Apogee)</developer>
-		<description>Almost 10 years after the first Duke Nukem game, and a few side scrolling sequels, Duke Nukem 3D a FPS version of the Duke Nukem franchise was unleashed upon the world. It's time to kick ass and chew bubble gum, and I'm all outta gum...</description>
-	</game>
-	<game>
+		<image>half_life.jpg</image>
 		<name>Half-Life</name>
 		<released>November 19, 1998</released>
 		<developer>Valve</developer>
 		<description>The first in another ground breaking series for FPS games, you were thrown through new dimensions and pitted against new alien foes in order to save the world.</description>
 	</game>
 	<game>
+		<image>heretic.jpg</image>
 		<name>Heretic</name>
 		<released>1994</released>
 		<developer>Raven Software</developer>
 		<description>This game was based on the same engine as Doom and Doom 2, but took a more fantasy twist to the FPS genre as opposed to SciFi. A good game in it's own right, another classic FPS.</description>
 	</game>
 	<game>
+		<image>hexen.jpg</image>
 		<name>Hexen</name>
 		<released>1995</released>
 		<developer>Raven Software</developer>
 		<description>This game was based on the Quake engine, and originally intended to be Heretic II, however the game ended up being so different it was renamed "Hexen: Beyond Heretic" One of the first in the Quake era of FPSs.</description>
 	</game>
 	<game>
+		<image>pitfall.jpg</image>
 		<name>Pitfall</name>
 		<released>September 1982</released>
 		<developer>Activision</developer>
 		<description>One of the first few games with actual graphics, played on the original Atari "video computer system", you had to be well off to own one of these in 1982. Though this game came out 6 months before I was born, it was the first game I ever played around the year 1987.</description>
 	</game>
 	<game>
+		<image>quake1.jpg</image>
 		<name>Quake</name>
 		<released>June 22, 1996</released>
 		<developer>Id Software</developer>
 		<description>Another ground breaker from Id Software, this time pioneering the true 3D FPS, no longer using flat 2D textures, the worlds and all objects inside them are rendered for the first time using 3-Dimensional polygons. Another huge success with new gaming technology from Id Software.</description>
 	</game>
 	<game>
+		<image>quake2.jpg</image>
 		<name>Quake 2</name>
 		<released>December 9, 1997</released>
 		<developer>Id Software</developer>
 		<description>Quake 2, while not as successful as Quake represented another leap forward in 3D gaming engines due to the native inclusion of OpenGL, and the engine was widely licensed to other companies to make other games. Quake 2 was not related to the original Quake store, and was only named Quake 2 due to the developer's inability to find a more creative name.</description>
 	</game>
 	<game>
+		<image>reader_rabbit.jpg</image>
 		<name>Reader Rabbit</name>
 		<released>1986</released>
 		<developer>The Learning Company</developer>
 		<description>Along with other edutainment software I used in my childhood, this software gave me a bit of a jump over other children, in 5th grade I was reading books on things I was intersted in like "Cryogenics". Not to say I fully understood some of it, but I understood the concepts.</description>
 	</game>
 	<game>
+		<image>rune.jpg</image>
 		<name>Rune</name>
 		<released>November 18, 2000</released>
 		<developer>Human Head Studios</developer>
 		<description>Rune was a game I happened to stumble across at a computer show, the graphics looked very good, so I grabbed it for $10, and played the hell out of it for years. As well as a single player story, it had fun online melee combat.</description>
 	</game>
 	<game>
+		<image>seven_kingdoms2.jpg</image>
 		<name>Seven Kingdoms 2: The Fryhtan Wars</name>
 		<released>July 31, 1999</released>
 		<developer>Enlight</developer>
 		<description>In the late 90s I played a lot of RTS game, and I picked this one up from clearance at GameStop, or EB at the time, and played this a lot along with StarCraft and some other RTSs. This game was never too popular, but I enjoyed it.</description>
 	</game>
 	<game>
+		<image>shadowman.jpg</image>
 		<name>Shadow Man</name>
 		<released>July 31, 1999</released>
 		<developer>Acclaim (no website, company bankrupt)</developer>
 		<description>Shadow Man was a man who died and was brought back by voodoo and fought evil spirits in the world, a fun game with an interesting concept, and some difficult puzzles. A great game when it was released, and still decent fun to play.</description>
 	</game>
 	<game>
+		<image>spy_vs_spy.jpg</image>
 		<name>Spy vs. Spy</name>
 		<released>1984</released>
 		<developer>First Star Software</developer>
 		<description>A very simple game where you set traps and try to kill, maim, or otherwise incapacitate the other Spy, based on the characters from MAD Magazine.</description>
 	</game>
 	<game>
+		<image>starcraft.jpg</image>
 		<name>StarCraft</name>
 		<released>March 31, 1998</released>
 		<developer>Blizzard Entertainment</developer>
 		<description>Hands down the best RTS game of all time. The replay value of this game was enhanced due to the fact that Blizzard release tools to build custom maps along with the game. This allowed players to make custom maps and scenarios, even their own storylines for the game. Online Ladder competitions and LAN play were also a huge part of this game.</description>
 	</game>
 	<game>
+		<image>starfox64.jpg</image>
 		<name>Starfox 64</name>
 		<released>June 30, 1997</released>
 		<developer>Nintendo EAD</developer>
 		<description>The not so successful remake of the original Starfox, this game was in the full 3D style of Nintendo 64, but never quite gained the game of it's predecessor. Still a very fun game, and my second favorite for the N64 system.</description>
 	</game>
 	<game>
+		<image>super_mario_bros_1.jpg</image>
 		<name>Super Mario Bros.</name>
 		<released>September 13, 1985</released>
 		<developer>Nintendo</developer>
 		<description>The first in a series of games that would come to define a genre that Nintendo basically began. Another classic that everyone should play.</description>
 	</game>
 	<game>
+		<image>super_mario_bros_2.jpg</image>
 		<name>Super Mario Bros. 2</name>
 		<released>September 1, 1988</released>
 		<developer>Nintendo</developer>
 		<description>The second installment in the Super Marion Bros. series, this game was not quite as popular as the first or the third, but was still fun to play. Another classic everyone should at least try out.</description>
 	</game>
 	<game>
+		<image>super_mario_bros_3.jpg</image>
 		<name>Super Mario Bros. 3</name>
 		<released>October 23, 1988</released>
 		<developer>Nintendo</developer>
 		<description>The third installment in the Super Marion Bros. series, arguably the best of the three, this game took Mario through multiple worlds and have him exciting new power. I recommend this one the most out of the three.</description>
 	</game>
 	<game>
+		<image>tmnt_tit.jpg</image>
 		<name>TMNT: Turtles in Time</name>
 		<released>July 24, 1992</released>
 		<developer>Konami</developer>
 		<description>Teenage Mutant Ninja Turtles have always been my favorite cartoon, and this game was a ton of fun in the arcade, and then on my SNES.</description>
 	</game>
 	<game>
+		<image>wcprivateer.jpg</image>
 		<name>Wing Commander: Privateer</name>
 		<released>September 22, 1993</released>
 		<developer>Origin Systems</developer>
 		<description>This game has a lot of replay value as well. It contains a main story line, and a lot of missions you can complete on the side.</description>
 	</game>
 	<game>
+		<image>wolfenstein_3d.jpg</image>
 		<name>Wolfenstein 3D</name>
 		<released>May 5, 1992</released>
 		<developer>Id Software</developer>
 		<description>Another of Id Software's first FPS games, this one was widely popular, and also sprang the release of a sequel, and two remakes 10 years later. This was one of my favorite games for many years.</description>
 	</game>
 	<game>
+		<image>zork1.jpg</image>
 		<name>Zork</name>
 		<released>1980</released>
 		<developer>Infocom</developer>

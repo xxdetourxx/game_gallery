@@ -34,7 +34,7 @@ function GameGallery() {
 
         games = [];
 
-        if(xmlDoc){
+       if(xmlDoc){
             var xmlGames = xmlDoc.getElementsByTagName('game');
 
             // Extract each game and store it in games.
@@ -44,7 +44,8 @@ function GameGallery() {
                 var xmlGame = xmlGames[xmlGamesIdx];
 
                 var game = {
-                  name: ext_tag('name',xmlGame),
+                  image: ext_tag('image',xmlGame),
+				  name: ext_tag('name',xmlGame),
                   released: ext_tag('released',xmlGame),
                   developer: ext_tag('developer',xmlGame),
                   description: ext_tag('description',xmlGame)
@@ -97,12 +98,24 @@ function GameGallery() {
         var current_game = this.games[this.gameIndex];
         this.debug('Updating content.');
 
-        $(document).find('#info span#name').html(current_game.name);
+		//testing image code, insert URL and image from thumbs dir
+		$(document).find('a#image_link').attr("href","images/" + current_game.image);
+		$(document).find('#image').css("background-image","url(images/thumbs/" + current_game.image + ")");
+		$(document).find('#image').css("background-position","center center"); 
+		$(document).find('#image').css("background-repeat","no-repeat");
+
+		$(document).find('#header span#title_name').html(current_game.name);
+        
+		$(document).find('#info span#name').html(current_game.name);
         $(document).find('#info span#released').html(current_game.released);
         $(document).find('#info span#developer').html(current_game.developer);
         $(document).find('#info span#description').html(current_game.description);
     };
 
+
+
+
+	
     this.left = function(){
         if(this.gameIndex > 0){
             this.debug('Going left');

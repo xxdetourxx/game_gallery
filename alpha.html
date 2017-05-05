@@ -6,42 +6,10 @@
 <script type="text/javascript" src="Scripts/parts.js"></script>
 <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
 
-<script>
-function loadXMLDoc(XMLname){
-	var xmlDoc;
-	if (window.XMLHttpRequest){
-		xmlDoc=new window.XMLHttpRequest();
-		xmlDoc.open("GET",XMLname,false);
-		xmlDoc.send("");
-		return xmlDoc.responseXML;
-	} else if (ActiveXObject("Microsoft.XMLDOM")){
-		xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-		xmlDoc.async=false;
-		xmlDoc.load(XMLname);
-		return xmlDoc;
-	}
-		alert("Error loading document!");
-		return null;
-}
-
-function getData()
-{
-	var xmlDoc=loadXMLDoc("test.xml");
-	var name=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
-	document.getElementById("name").innerHTML=name;
-	var released=xmlDoc.getElementsByTagName("released")[0].childNodes[0].nodeValue;
-	document.getElementById("released").innerHTML=released;
-	var developer=xmlDoc.getElementsByTagName("developer")[0].childNodes[0].nodeValue;
-	document.getElementById("developer").innerHTML=developer;
-	var description=xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-	document.getElementById("description").innerHTML=description;
-}
-</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>.gg/ game_gallery/</title>
-
+<title>Game Gallery</title>
 </head>
-<body onload="f1();MM_preloadImages('images/left_arrow_hover.jpg','images/right_arrow_hover.jpg');getData();">
+<body onload=alphaLoad()>
 <div id="container">
 
 	<!-- header -->
@@ -50,14 +18,10 @@ function getData()
 		<div id="center">    
 	        
             <div id="left">
-            	<a href="" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Previous','','images/left_arrow_hover2.jpg',1);" onclick="gameIndex=gameIndex-1">
-                	<img src="images/left_arrow_normal2.jpg" alt="Previous" name="Previous" id="Previous" />
-                </a>
+				<div id="prev"><a href="javascript:void(0);" onclick="prevClick();" >PREV</a></div>
             </div>
     
-            <a href="images/catacomb_abyss.gif">
-            	<div id="image" style="background-image:url(images/thumbs/catacomb_abyss.jpg); background-position:center center; background-repeat:no-repeat;"></div>
-            </a>
+			<div id="gameImage"></div>
             
             <div id="info">
                 <div style="display: table; height: 300px; #position: relative; overflow: hidden;">
@@ -77,9 +41,7 @@ function getData()
             </div>
 				
             <div id="right">
-            	<a href="" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Next','','images/right_arrow_hover2.jpg',1);" onclick="gameIndex=gameIndex+1">
-                	<img src="images/right_arrow_normal2.jpg" alt="Next" name="Next" id="Next" />
-                </a>
+				<div id="next"><a href="javascript:void(0);" onclick="nextClick();" >NEXT</a></div>
             </div>
             
 		</div>
@@ -87,6 +49,5 @@ function getData()
 	<!-- footer -->
     <script>footer_html();getData();</script>
 </div>
-
 </body>
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
 
@@ -51,3 +52,58 @@
 </div>
 </body>
 </html>
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+
+<head>
+<link rel="stylesheet" href="css/styles.css" />
+<script type="text/javascript" src="Scripts/parts.js"></script>
+<script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Game Gallery</title>
+</head>
+<body onload=alphaLoad()>
+<div id="container">
+
+	<!-- header -->
+    <script>alpha_header_html();</script>
+
+		<div id="center">    
+	        
+            <div id="left">
+				<div id="prev"><a href="javascript:void(0);" onclick="prevClick();" >PREV</a></div>
+            </div>
+    
+			<div id="gameImage"></div>
+            
+            <div id="info">
+                <div style="display: table; height: 300px; #position: relative; overflow: hidden;">
+                    <div style=" #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;">
+                        <div style="#position: relative; #top: -50%; ">
+                        <h1>Name:</h1>
+                        <h2><span id="name"></span></h2>
+                        <h1>Released:</h1> 
+                        <h2><span id="released"></span></h2>
+                        <h1>Developer:</h1>
+                        <h2><span id="developer"></span></h2>
+                        <h1>Description:</h1> 
+                        <h2><span id="description"></span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+				
+            <div id="right">
+				<div id="next"><a href="javascript:void(0);" onclick="nextClick();" >NEXT</a></div>
+            </div>
+            
+		</div>
+
+	<!-- footer -->
+    <script>footer_html();getData();</script>
+</div>
+</body>
+</html>
+>>>>>>> origin/master
